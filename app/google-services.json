@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "822139330333",
+    "project_id": "spin-and-win-b1f63",
+    "storage_bucket": "spin-and-win-b1f63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822139330333:android:c4ceb2e85eaeada8920bf4",
+        "android_client_info": {
+          "package_name": "com.godgalaxy.spinandwin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822139330333-0acir5rlunbmp0lj6geg8rjgr7gnkj0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-Baz7i8d7cIwW1cKmQVbrq_qObosBHJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822139330333-0acir5rlunbmp0lj6geg8rjgr7gnkj0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

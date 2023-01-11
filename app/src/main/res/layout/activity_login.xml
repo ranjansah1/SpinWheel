@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/loginCointainer"
+    android:background="@drawable/login_bk"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/trade_winds"
+        android:text="Login.."
+        android:id="@+id/t1"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/primaryTextColor"
+        android:background="@drawable/login_tb"
+        app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/t1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="50dp"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Email"
+        android:drawableTint="@color/primaryTextColor"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_email_24"
+        android:id="@+id/EmailTb"
+        android:textColorHint="@color/whiteBlack"
+        android:fontFamily="@font/roboto"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/login_tb"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/EmailTb"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="30dp"
+        app:passwordToggleEnabled="true"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:drawableTint="@color/primaryTextColor"
+        android:id="@+id/PassTb"
+        android:textColorHint="@color/whiteBlack"
+        android:fontFamily="@font/roboto"
+        android:textSize="18sp"
+        android:textColor="@color/primaryTextColor"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/ic_pass"
+        android:drawablePadding="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password"
+        app:layout_constraintTop_toBottomOf="@id/PassTb"
+        app:layout_constraintEnd_toEndOf="@id/PassTb"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:textColor="@color/primaryTextColor"
+        android:fontFamily="@font/roboto"
+        android:id="@+id/ForgetPass"/>
+
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Show password"
+    android:textColor="@color/black"
+    android:fontFamily="@font/roboto"
+    app:layout_constraintTop_toBottomOf="@id/PassTb"
+    app:layout_constraintLeft_toLeftOf="@id/PassTb"
+    android:id="@+id/ShowPass"/>
+    <TextView
+        android:id="@+id/LoginBtn"
+        android:layout_width="144dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/button_3"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/ForgetPass"
+        app:layout_constraintStart_toStartOf="@id/ForgetPass"
+        app:layout_constraintTop_toBottomOf="@id/ForgetPass" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dont have an Account? Sign UP"
+        app:layout_constraintTop_toBottomOf="@id/LoginBtn"
+        app:layout_constraintRight_toRightOf="parent"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="15sp"
+        android:fontFamily="@font/actor"
+        android:id="@+id/DontAcc"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
